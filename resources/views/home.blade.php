@@ -24,6 +24,9 @@
     <!-- Background image-->
     <div class="container w-screen mt-4 dashboard_bg">
     </div>
+    <div class="row">
+      @include('honden.index')
+    </div>
     @if (Auth::user()->is_admin == 1)
     <!-- Adding dogs button-->
     <div class="container">
